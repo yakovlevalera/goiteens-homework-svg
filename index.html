@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">    
+    <!-- Зовнішній файл стилю -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>   
+    
+    <!-- <ul>
+        <li><a href="./background.html">Фон елементів</a></li>
+        <li><a href="./multibg.html">Багатошаровий фон</a></li>
+        <li><a href="./pseudoelements.html">Псевдоелементи</a></li>
+        <li><a href="./inlinesvg.html">Вбудовані SVG</a></li>
+    </ul> -->
+
+    <!-- Шапка -->
+    <header>
+    <div class="header-nav container">
+        <a class="logo" href="./"><span>Web</span>Studio</a>
+        <nav>             
+        <ul class="nav-list">               
+            <li class="list-item"><a class="link link-current" href="./">Студія</a></li>
+            <li class="list-item"><a class="link" href="./portfolio.html" target="_blank" rel="noopener noreferer">Портфоліо</a></li>
+            <li class="list-item"><a class="link" href="">Контакти</a></li>
+        </ul> 
+        </nav>
+        <ul class="contacts-nav">
+            <li>
+                <a class="contacts-link" href="mailto:info@devstudio.com">
+                    <svg class="contact-icon" width="16" height="12">
+                        <use href="./img/webstudio/Іконки/symbol-defs.svg#icon-emailhover" ></use>
+                    </svg>                
+                info@devstudio.com
+                </a>
+            </li>
+            <li><a class="contacts-link" href="tel:+380961111111">
+                <svg class="contact-icon" width="10" height="16">
+                    <use href="./img/webstudio/Іконки/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                +38 096 111 11 11</a></li>
+        </ul>
+    </div>
+    </header>
+    <!-- Основна секція -->
+    <main>
+    <!-- Секція герой -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">ефективні рішення для                     
+                </br> 
+                вашого бізнесу
+                </h1>
+            <button type="button" class="hero-button">Замовити послугу</button>
+            </div>
+        </section>
+    <!-- Секція особливості -->
+        <section class="section">
+            <div class="container">
+                <h2 class="visually-hidden">Особливості</h2>
+            <ul class="features">
+                <li class="features-item">
+                    <div class="features-icon">
+                        <svg  class="icon" width="65" height="70">
+                        <use href="./img/webstudio/Іконки/symbol-defs.svg#icon-atentiontoaircraft"></use>
+                    </svg>
+                    </div>
+                    <h3 class="title ">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, a nemo perferendis quia accusamus temporibus repellat sequi architecto, et fugit in similique nam ipsa adipisci quae rerum quo tempora illo!</p>
+                </li>
+                <li class="features-item">
+                    <div class="features-icon">
+                        <svg  class="icon"width="65" height="70">
+                        <use href="./img/webstudio/Іконки/symbol-defs.svg#icon-punctuation"></use>
+                    </svg>
+                    </div>
+                    <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, a nemo perferendis quia accusamus temporibus repellat sequi architecto, et fugit in similique nam ipsa adipisci quae rerum quo tempora illo!</p>
+                </li>
+                <li class="features-item">
+                    <div class="features-icon">
+                        <svg class="icon" width="70" height="53">
+                        <use href="./img/webstudio/Іконки/symbol-defs.svg#icon-planning"></use>
+                    </svg>
+                    </div>
+                    <h3 class="title">ПЛАНУВАННЯ</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, a nemo perferendis quia accusamus temporibus repellat sequi architecto, et fugit in similique nam ipsa adipisci quae rerum quo tempora illo!</p>
+                </li>
+                <li class="features-item">
+                    <div class="features-icon">
+                        <svg class="icon" width="55" height="60">
+                        <use href="./img/webstudio/Іконки/symbol-defs.svg#icon-moderntechnology"></use>
+                    </svg>
+                    </div>
+                    <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, a nemo perferendis quia accusamus temporibus repellat sequi architecto, et fugit in similique nam ipsa adipisci quae rerum quo tempora illo!</p>
+                </li>                
+            </ul>
+            </div>
+        </section>
+    <!-- Секція чим ми займаємось -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Чим ми займаємося</h2>
+            <ul class="image">
+                <li><img src="../img/webstudio/Чим ми займаємося/planchetclaviatura.jpg" alt="Зображення планшету"></li>
+                <li><img src="../img/webstudio/Чим ми займаємося/noutbuktelephone.jpg" alt="Зображення планшету"></li>
+                <li><img src="../img/webstudio/Чим ми займаємося/computerplanchet.jpg" alt="Зображення планшету"></li>
+            </ul>
+            </div>
+        </section>
+    <!-- Секція наша команда -->
+        <section class="section our-team">
+            <div class="container">
+                <h2 class="section-title">Наша команда</h2>
+            <ul class="team">
+                <li class="team-link">
+                    <img src="../img/webstudio/Наша команда/igordemyanenko.jpg" alt="Дем'яненко Шгор">
+                    <p class="name">Ігор Дем’яненко</p>
+                    <p class="position">Product Designer</p>
+                    <ul>
+                        <li> <a href=""> <svg width="20" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-instagram"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="20" height="16"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-twiter"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="10" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-facebook"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="20" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-linkedIn"></use></svg> </a> </li>
+                    </ul>
+                </li>
+                <li class="team-link">
+                    <img src="../img/webstudio/Наша команда/olgarepina.jpg" alt="Ольга Репіна">
+                    <p class="name">Ольга Репіна</p>
+                    <p class="position">Frontend Developer</p>
+                    <ul>
+                        <li> <a href=""> <svg width="20" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-instagram"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="20" height="16"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-twiter"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="10" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-facebook"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="20" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-linkedIn"></use></svg> </a> </li>
+                    </ul>
+                </li>
+                <li class="team-link">
+                    <img src="../img/webstudio/Наша команда/mikolatarasov.jpg" alt="Микола Тарасов">
+                    <p class="name">Микола Тарасов</p>
+                    <p class="position">Marketing</p>
+                    <ul>
+                        <li> <a href=""> <svg width="20" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-instagram"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="20" height="16"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-twiter"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="10" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-facebook"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="20" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-linkedIn"></use></svg> </a> </li>
+                    </ul>
+                </li>
+                <li class="team-link">
+                    <img src="../img/webstudio/Наша команда/mihailoyermakov.jpg" alt="Михайло Єрмаков">
+                    <p class="name">Михайло Єрмаков</p>
+                    <p class="position">UI Designer</p>
+                    <ul>
+                        <li> <a href=""> <svg width="20" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-instagram"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="20" height="16"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-twiter"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="10" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-facebook"></use></svg> </a> </li>
+                        <li> <a href=""> <svg width="20" height="20"><use href="./img/webstudio/Іконки/symbol-defs.svg#icon-linkedIn"></use></svg> </a> </li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+        </section>        
+    </main>
+        <!-- Футер -->
+        <footer class="footer">
+            <div class="container">
+                <a class="footer-logo" href=""><span>Web</span>Studio</a>
+            <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address>
+            <ul class="footer-contacts">
+                <li><a class="footer-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="footer-contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+            </div>
+</footer>
+</body>
+</html>
